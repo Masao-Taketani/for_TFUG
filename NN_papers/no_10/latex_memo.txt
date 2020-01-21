@@ -1,0 +1,11 @@
+normalized fp:
+= \left ( \right-1)^{s} \times 1.f_{m-1}f_{m-2}\cdots f_{1}f_{0} \times 2^{(e - bias)}
+denormalized fp:
+= \left ( \right-1)^{s} \times 0.f_{m-1}f_{m-2}\cdots f_{1}f_{0} \times 2^{(1 - bias)}
+abs of nomalized:
+1.00\cdots 00 \times 2^{-14}
+abs of denorfma:
+\left ( \right-1)^{s} \times 0.f_{9}f_{8}\cdots f_{1}f_{0} \times 2^{-14}
+for loss of trailing digits:
+1.1111111111 \times 2^{13}
+0.000000000001 \times 2^{13}
